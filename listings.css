@@ -1,6 +1,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -15,6 +17,79 @@ header {
     background-color: hsl(180, 29%, 50%);
 }
 
+h4 {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+hr {
+    width: 275px;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
 .header-image {
     width: 100%;
+}
+
+.box {
+    width: 330px;
+    height: 265px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    border-radius: 4px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+}
+
+.box__1 {
+    border-left: 4px solid hsl(180, 29%, 50%);
+    position: relative;
+}
+
+.box__1-1 {
+    display: flex;
+    margin-left: 16px;
+    padding-top: 45px;
+}
+
+.box__1-2 {
+    display: flex;
+    color: lightgray;
+    margin-left: 10px;
+    padding-top: 10px; 
+}
+
+.box__1-2 p {
+    margin-left: 5px;
+}
+
+#photosnap {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -35px;
+    left: 10px;
+}
+
+#new {
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    padding: 4px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+#featured {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 10px;
 }
