@@ -44,6 +44,24 @@ hr {
     font-weight: 500;
 }
 
+.green__box {
+    background-color: hsl(180, 52%, 96%);
+    color: hsl(180, 29%, 50%);
+    border-style: none;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.green__box:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+}
+
+.photosnap {
+    color: #5ba4a4;
+    font-weight: 700;
+}
+
 .box__1 {
     border-left: 4px solid hsl(180, 29%, 50%);
     position: relative;
@@ -57,7 +75,7 @@ hr {
 
 .box__1-2 {
     display: flex;
-    color: lightgray;
+    color: darkgrey;
     margin-left: 10px;
     padding-top: 10px; 
 }
@@ -66,12 +84,67 @@ hr {
     margin-left: 5px;
 }
 
+.box__1-3 {
+    position: absolute;
+    margin-left: 16px;
+    top: 160px;
+}
+
+.box__1-4 {
+    position: absolute;
+    margin-left: 16px;
+    top: 200px;
+}
+
+.manage {
+    color: #5ba4a4;
+    font-weight: 700;
+}
+
+.account {
+    color: #5ba4a4;
+    font-weight: 700;
+}
+
+.box__2 {
+    border-left: 4px solid hsl(180, 29%, 50%);
+    position: relative;
+}
+
+.box__3-3 {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.box__3-4 {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 55px;
+}
+
 #photosnap {
     width: 60px;
     height: 60px;
     position: absolute;
     top: -35px;
     left: 10px;
+}
+
+#manage {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -35px;
+    left: 10px;
+}
+
+#account {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 815px;
+    left: 35px;
 }
 
 #new {
