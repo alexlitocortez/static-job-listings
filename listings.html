@@ -11,8 +11,18 @@
 <body>
     <header>
         <img class="header-image" src="images/bg-header-mobile.svg" alt="header-image">
+        
     </header>
-    <div class="box box__1">
+
+    <div class="container">
+        <div class="search-container">
+            <div class="search"></div>
+            <p class="clear">Clear</p>
+        </div>
+    </div>
+
+    <div class="box box__1 filter" data-role="frontend" data-level="senior" data-languages="html"
+    data-languages="css" data-languages="javascript">
         <img id="photosnap" src="images/photosnap.svg" alt="job-icon">
         <div class="box__1-1">
             <p class="photosnap">Photosnap</p>
@@ -26,17 +36,18 @@
             <p>USA only</p>
         </div>
         <div class="box__1-3">
-            <button class="green__box">Frontend</button>
-            <button class="green__box">Senior</button>
-            <button class="green__box">HTML</button>
+            <button class="green__box role">Frontend</button>
+            <button class="green__box role">Senior</button>
+            <button class="green__box role">HTML</button>
         </div>
         <div class="box__1-4">
-            <button class="green__box">CSS</button>
-            <button class="green__box">Javascript</button>
+            <button class="green__box role">CSS</button>
+            <button class="green__box role">Javascript</button>
         </div>
         <hr>
     </div>
-    <div class="box box__2">
+    <div class="box box__2 filter" data-role="fullstack" data-level="midweight"
+    data-languages="python" data-tools="react">
         <img id="manage" src="images/manage.svg" alt="manage-icon">
         <div class="box__1-1">
             <p class="manage">Manage</p>
@@ -51,15 +62,16 @@
         </div>
         <hr>
         <div class="box__1-3">
-            <button class="green__box">Fullstack</button>
-            <button class="green__box">Midweight</button>
-            <button class="green__box">Python</button>
+            <button class="green__box role">Fullstack</button>
+            <button class="green__box role">Midweight</button>
+            <button class="green__box role">Python</button>
         </div>
         <div class="box__1-4">
-            <button class="green__box">React</button>
+            <button class="green__box role">React</button>
         </div>
     </div>
-    <div class="box box__3">
+    <div class="box box__3 filter" data-role="junior" data-tools="react"
+    data-tools="sass" data-languages="javascript">
         <img id="account" src="images/account.svg" alt="account-icon">
         <div class="box__1-1">
             <p class="account">Account</p>
@@ -75,15 +87,14 @@
         <hr>
         <div class="box__3-3">
             <button class="green__box">Frontend</button>
-            <button class="green__box">Junior</button>
-            <button class="green__box">React</button>
+            <button class="green__box role">Junior</button>
+            <button class="green__box role">React</button>
         </div>
         <div class="box__3-4">
-            <button class="green__box">Sass</button>
-            <button class="green__box">Javascript</button>
+            <button class="green__box role">Sass</button>
+            <button class="green__box role">Javascript</button>
         </div>
     </div>
-
     <script src="listings.js"></script>
 </body>
 
