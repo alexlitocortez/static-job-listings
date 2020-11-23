@@ -22,6 +22,11 @@ h4 {
     margin-left: 16px;
 }
 
+button {
+    outline: none;
+    cursor: pointer;
+}
+
 hr {
     width: 275px;
     margin-left: 16px;
@@ -30,6 +35,49 @@ hr {
 
 .header-image {
     width: 100%;
+}
+
+.search-container {
+    width: 100%;
+    display: none;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px 3px hsla(180, 29%, 50%, 0.3)
+    border-radius: 6px;
+    padding: 25px;
+    font-size: 0.9em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    gap: 20px;
+}
+
+.clear {
+    color: var(--DarkGrayishCyan);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.clear:hover {
+    color: var(--DesaturatedDarkCyan);
+    text-decoration: underline;
+}
+
+.remove {
+    width: 30px;
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--DesaturatedDarkCyan);
+    background-image: url(images/icon-remove.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background-color: black;
 }
 
 .box {
@@ -55,6 +103,7 @@ hr {
 .green__box:hover {
     background-color: hsl(180, 29%, 50%);
     color: white;
+    transform: scale(1.1);
 }
 
 .photosnap {
